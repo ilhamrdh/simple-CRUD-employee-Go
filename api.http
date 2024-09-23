@@ -1,0 +1,10 @@
+### Create new category
+POST http://localhost:8080/api/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+    "employee_id": "1001",
+    "fullname": "Budi",
+    "address": "Jakarta"
+}
